@@ -76,7 +76,7 @@ braze.initialize('YOUR-API-KEY-HERE', {
 });
 
 // optionally show all in-app messages without custom handling
-braze.automaticallyShowInAppMessages();
+braze.display.automaticallyShowNewInAppMessages();
 
 // optionally set the current user's External ID
 if (isLoggedIn){
